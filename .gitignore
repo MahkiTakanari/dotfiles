@@ -1,0 +1,16 @@
+# ~/.dotfiles/.gitignore
+
+# Mac 特有の不要ファイル
+.DS_Store
+
+# vim のスワップファイル
+*.swp
+*.swo
+*.swn
+
+# バックアップファイル
+*~
+
+# その他不要な一時ファイル
+*.bak
+*.tmp
