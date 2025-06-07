@@ -2,4 +2,28 @@
 	name = MahkiTakanari
 	email = emc.leguza@gmail.com
 [core]
-	excludesfile = /Users/takanarimahki/.gitignore_global
+    editor = vim
+    autocrlf = input
+    pager = less -r
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    excludesfile = /Users/takanarimahki/.gitignore_global
+
+[color]
+    ui = auto
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --oneline --graph --all --decorate
+    last = log -1 HEAD
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = false
+
+[merge]
+    tool = vimdiff
