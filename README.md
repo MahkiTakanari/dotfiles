@@ -17,7 +17,7 @@
 
 ```bash
 git clone https://github.com/mahki-takanari/dotfiles.git ~/dotfiles
-
+```
 
 ### 2. シンボリックリンクを作成
 
@@ -26,10 +26,12 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/dotfiles/.gitignore_global ~/.gitignore_global
+```
 
 ### 3. Gitのグローバル.gitignore設定
 ```bash
 git config --global core.excludesfile ~/.gitignore_global
+```
 
 ## 注意
 - この設定は主にmacOSを対象としています。
