@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Vim
+*.swp
+
+# その他
+*.log
+*.tmp
